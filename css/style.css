@@ -1,0 +1,204 @@
+/*html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', cursive;
+  background-color: white;
+  text-align: center;
+} */
+
+html, body, #a {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  background-color: #999;
+}
+
+#a {
+  display: table;
+}
+
+#b {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+#content {
+  border: none;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  font-family: 'Montserrat';
+  font-size: 6rem;
+  color: white;
+  text-shadow: 4px 4px 3px rgba(0, 150, 150, 0.75);
+}
+
+#small {
+  font-size: 1rem;
+  text-shadow: 4px 4px 3px rgba(0, 150, 150, 0.75);
+}
+
+@media only screen and (max-width: 1000px) {
+  #content {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #content {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #content {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  #content {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #content {
+    font-size: 2.25rem;
+  }
+}
+
+/*@media only screen and (max-width: 480px) {
+  .left-header h1 {
+    font-size: 0.75rem;
+  }
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom: 2px solid black;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+nav  a{
+  padding: 5px 25px;
+  color: black;
+}
+
+.header-container {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-container {
+  margin: 10px 20px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  top: -20px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+}
+
+h2 {
+  color: SlateGrey;
+  text-transform: uppercase;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fa-html5:hover {
+  color: #e54d26;
+}
+
+.fa-css3:hover {
+  color: #037cc5;
+}
+
+.fa-git-square:hover {
+  color: #f34f29;
+}
+
+.fa-twitter:hover {
+  color: #1da1f3;
+}
+
+.fa-lastfm:hover {
+  color: #d41e08;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.fa-github:hover {
+  color: #7f8c8d;
+}
+
+.icon {
+  font-size: 95px;
+}
+
+.icon:hover {
+  color: #cd669b;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  border-top: 2px solid black;
+  font-size: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.footer-container {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} /*
+
+/* COLORS
+#e54d26 HTML5
+#037cc5 CSS3
+#f34f29 GIT
+#cd669b SASS
+#1da1f3 TWITTER
+#d41e08 LAST.FM
+#000000 GITHUB
+#0077b5 LINKEDIN
+*/
