@@ -85,7 +85,7 @@ h1 {
   and (-webkit-min-device-pixel-ratio: 2) {
     #countdown,
     h1 {
-      font-size: 5rem;
+      font-size: 4.5rem;
     }
 
     #small {
