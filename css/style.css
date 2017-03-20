@@ -15,7 +15,6 @@ html, body, #a {
   display: table-cell;
   margin: 0;
   padding: 0;
-
   text-align: center;
   vertical-align: middle;
 }
@@ -69,14 +68,3 @@ h1 {
     font-size: 2.25rem;
   }
 }
-
-/* COLORS
-#e54d26 HTML5
-#037cc5 CSS3
-#f34f29 GIT
-#cd669b SASS
-#1da1f3 TWITTER
-#d41e08 LAST.FM
-#000000 GITHUB
-#0077b5 LINKEDIN
-*/
