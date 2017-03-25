@@ -29,47 +29,47 @@ var x = setInterval(function() {
 
 function setTextColor()
 {
-    window.setTimeout( "setTextColor()", 500); //  milliseconds delay
+    window.setTimeout( "setTextColor()", 1000); //  milliseconds delay
 
     var index = Math.round(Math.random() * 16);
 
-    var ColorValue = "#000000"; // default color - white (index = 0)
+    var colorValue = "#000000"; // default color - white (index = 0)
 
-    if(index === 1)
-        ColorValue = "#1abc9c";
-    if(index === 2)
-        ColorValue = "#16a085";
-    if(index === 3)
-        ColorValue = "#2ecc71";
-    if(index === 4)
-        ColorValue = "#27ae60";
-    if(index === 5)
-        ColorValue = "#3498db";
-    if(index === 6)
-        ColorValue = "#2980b9";
-    if(index === 7)
-        ColorValue = "#9b59b6";
-    if(index === 8)
-        ColorValue = "#8e44ad";
-    if(index === 9)
-        ColorValue = "#34495e";
-    if(index === 10)
-        ColorValue = "#2c3e50";
-    if(index === 11)
-        ColorValue = "#f1c40f";
-    if(index === 12)
-        ColorValue = "#f39c12";
-    if(index === 13)
-        ColorValue = "#e67e22";
-    if(index === 14)
-        ColorValue = "#d35400";
-    if(index === 15)
-        ColorValue = "#e74c3c";
-    if(index === 16)
-        ColorValue = "#c0392b";
+    if (index === 1) {
+      colorValue = "#1abc9c";
+    } else if (index === 2) {
+      colorValue = "#16a085";
+    } else if (index === 3) {
+      colorValue = "#2ecc71";
+    } else if (index === 4) {
+      colorValue = "#27ae60";
+    } else if (index === 5) {
+      colorValue = "#3498db";
+    } else if (index === 6) {
+      colorValue = "#2980b9";
+    } else if (index === 7) {
+      colorValue = "#9b59b6";
+    } else if (index === 8) {
+      colorValue = "#8e44ad";
+    } else if (index === 9) {
+      colorValue = "#34495e";
+    } else if (index === 10) {
+      colorValue = "#2c3e50";
+    } else if (index === 11) {
+      colorValue = "#f1c40f";
+    } else if (index === 12) {
+      colorValue = "#f39c12";
+    } else if (index === 13) {
+      colorValue = "#e67e22";
+    } else if (index === 14) {
+      colorValue = "#d35400";
+    } else if (index === 15) {
+      colorValue = "#e74c3c";
+    } else {
+      colorValue = "#c0392b";
+    };
 
-    document.getElementById("content").style["text-shadow"] = "6px 6px 0px " + ColorValue;
-    document.getElementById("small").style["text-shadow"] = "6px 6px 0px " + ColorValue;
+    document.getElementById("content").style["text-shadow"] = "6px 6px 0px " + colorValue;
 };
 
 setTextColor();
